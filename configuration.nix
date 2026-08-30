@@ -105,6 +105,7 @@
      kitty
      spotify
      prismlauncher
+     git
    ];
 
   programs.steam = {
