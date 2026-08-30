@@ -83,6 +83,7 @@
   users.users.andrey = {
      isNormalUser = true;
      home = "/home/andrey";
+     initialPassword = "123";
      extraGroups = [ "wheel" "networkmanager" "audio"]; # Enable ‘sudo’ for the user.
      packages = with pkgs; [
        tree
